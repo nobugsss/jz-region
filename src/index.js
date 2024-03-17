@@ -4,7 +4,7 @@ import region from "./region";
  * 获取地址对象
  * @param Number code
  */
-export function findRegion(code) {
+export const findRegion = function (code) {
 	if (!code) return;
 	function search(list, stack = []) {
 		//直接命中根级
@@ -36,13 +36,18 @@ export function findRegion(code) {
 	let s = search(region);
 	delete s["children"];
 	return s;
-}
+};
 
 /**
  * 获取地址名称
  * @param Number code
  */
-export function findRegionName(code) {
+export const findRegionName = function (code) {
 	let region = findRegion(code);
 	return region ? region.name : "";
-}
+};
+
+export default {
+	findRegion,
+	findRegionName
+};

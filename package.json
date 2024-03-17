@@ -1,25 +1,25 @@
 {
-  "name": "jz-region",
-  "version": "1.0.0",
-  "description": "根据地区码获取数据",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nobugsss/jz-region.git"
-  },
-  "keywords": [
-    "area",
-    "region",
-    "code",
-    "name"
-  ],
-  "author": "nobugsss",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nobugsss/jz-region/issues"
-  },
-  "homepage": "https://github.com/nobugsss/jz-region#readme"
+	"name": "jz-region",
+	"version": "1.0.0",
+	"description": "根据地区码获取数据",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nobugsss/jz-region.git"
+	},
+	"keywords": [
+		"area",
+		"region",
+		"code",
+		"name"
+	],
+	"author": "nobugsss",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/nobugsss/jz-region/issues"
+	},
+	"homepage": "https://github.com/nobugsss/jz-region#readme"
 }
