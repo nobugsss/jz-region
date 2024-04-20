@@ -41,6 +41,7 @@ export const findRegion = function (code) {
 /**
  * 获取地址名称
  * @param Number code
+ * @return area name
  */
 export const findRegionName = function (code) {
 	let region = findRegion(code);
