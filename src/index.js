@@ -3,7 +3,7 @@ import region from "./region";
 /**
  * 获取地址对象
  * @param Number code
- * @return areaOjb
+ * @return areaObj
  */
 export const findRegion = function (code) {
 	if (!code) return;
