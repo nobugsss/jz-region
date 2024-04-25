@@ -1,3 +1,4 @@
+// 中国地区编码
 import region from "./region";
 
 /**
