@@ -4,7 +4,7 @@ import region from "./region";
 /**
  * 获取地址对象
  * @param Number code
- * @return areaObj（地址名称、code。）
+ * @return areaObj（地址名称、code）
  */
 export const findRegion = function (code) {
 	if (!code) return;
